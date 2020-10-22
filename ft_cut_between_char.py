@@ -21,3 +21,6 @@ def ft_cut_between_char(a, b):
         elif i > y:
             fin += b[i]
     return fin
+
+
+#print(ft_cut_between_char())
