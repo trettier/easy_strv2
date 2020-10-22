@@ -14,4 +14,10 @@ def ft_cut_between_char(a, b):
         return -2
     elif y == 0:
         return -1
-    return b[:x] + b[y + 1:]
+    fin = ""
+    for i in range(c):
+        if i < x:
+            fin += b[i]
+        elif i > y:
+            fin += b[i]
+    return fin
