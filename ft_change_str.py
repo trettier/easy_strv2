@@ -14,9 +14,7 @@ def ft_change_str(a, b, c):
             else:
                 t = True
                 if x + 1 < d:
-                    print(i, x)
                     for j in range(i, x):
-                        print(j, a[j - i], c[j])
                         if a[j - i] != c[j]:
                             t = False
                             break
@@ -27,6 +25,6 @@ def ft_change_str(a, b, c):
                     fin += c[i]
         else:
             y -= 1
-    if fin == a:
+    if fin == c:
         return False
     return fin
