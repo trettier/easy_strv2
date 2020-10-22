@@ -7,4 +7,6 @@ def ft_count_words(str_):
         if i == " " and t:
             a += 1
             t = False
+    if str_[-1] == " ":
+        a -= 1
     return a
